@@ -25,3 +25,129 @@ body{
     font-size: 28px;
 }
 
+.project{
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 28px;
+}
+
+.about{
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 28px;
+}
+hr{
+    width: 1504px;
+    
+}
+.contact{
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 28px;
+}
+.top-links {
+
+    width: 460px;
+    height: 32px;
+    gap: 32px;
+    color:white;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Red Hat Display', sans-serif;
+    text-decoration: none;
+    
+
+}
+.landing-page{
+    width:1440px;
+    height: 3975px;
+    min-height: 900px;
+    padding-left: 48px;
+    padding-right: 48px;
+
+
+}
+.nav-bar{
+    width: 1344px;
+    height: 80px;
+    padding-top:16px;
+    padding-bottom:16px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.container{
+    width: 1344px;
+    height: 3727px;
+    padding-top: 48px;
+    padding-bottom: 48px;
+}
+.main-heading{
+   
+    text-align: center;
+    font-weight: 500;
+    font-size: 120px;
+    line-height: 120px;
+    color:white;
+    font-family:'Red Hat Display', sans-serif;
+}
+.heading{
+    width:1334px;
+    height:120px;
+    
+
+}
+
+.land-photo{
+    width: 1344px;
+    height: 672px;
+    border: 1.5px;
+    border-radius: 28px;
+
+}
+.r1{
+    width: 1390px;
+    height: 400px;
+    padding-top: 48px;
+    padding-bottom: 48px;
+    gap:48px;
+    display: flex;
+}
+.r1 img{
+    width:400px;
+    height:300px;
+    gap:8px;
+    display: flex;
+    justify-content: center;
+
+}
+.r2{width: 1390px;
+    height: 400px;
+    padding-top: 48px;
+    padding-bottom: 48px;
+    gap:48px;
+    display: flex;
+   }
+.r2 img{
+    width:400px;
+    height:300px;
+    gap:8px;
+}
+
+.r3{
+    width: 1390px;
+    height: 400px;
+    padding-top: 48px;
+    padding-bottom: 48px;
+    gap:48px;
+    display: flex;
+}
+.r3 img{
+    width:400px;
+    height:300px;
+    gap:8px;
+}
