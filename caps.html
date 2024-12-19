@@ -1,100 +1,213 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link href="https://fonts.cdnfonts.com/css/staatliches-2" rel="stylesheet">
-    <link href="https://fonts.cdnfonts.com/css/red-hat-display" rel="stylesheet">
-    <link href="https://fonts.cdnfonts.com/css/inria-sans" rel="stylesheet">
-    <link rel="stylesheet" href="capst.css">
+body{
+    background-color:black;
+}
 
-</head>
-<body>
-    <div class="landing-page">
-
-        <div class="nav-bar">
-            <div class = "synthwave">
-                    <a class="logo" href="dj">Synthwave</a>
-                </div>
-
-        <div class = "top-links">
-            <a href="llmd" class = "home">Home</a>
-            <a href="lakd"class = "project">Projects</a>
-            <a href="lakdi"class = "about">About</a>
-            <a href="lakdosndd"class = "contact">Contact</a>
-        </div>
-        </div>
-        <hr>
-<div class="container">
-
-    <div class="page-hero">
-        <div class="heading">
-            <h1 class="main-heading">Step into the Future</h1>
-        </div>
-        <div class="land-photo">
-            <img id="horizon"src="asset1.png" >
-        </div>
-        </div>
-    <div class="nine-view">
-        <div class="r1">
-                <div>
-            <img  src="main1.png"><div class="t1">Neon Nights</div>
-            <div class="t2">Web Design</div>
-        </div>
-            <div >
-                <img  src="main2.png"><div class="t1">Cyber City</div><div class="t2">App Development</div>
-                </div>
-            <div >
-                <img src="main3.png"><div class="t1">Retro Waves</div><div class="t2">Graphic Design</div>
-            </div>
-            </div>
-        <div class="r2">
-
-            <div>
-        <img src="main4.png"><div class="t1">Synth Dreams</div><div class="t2">Illustrations</div>
-    </div>
-        
-        <div> <img src="asset5.png"><div class="t1">Futuristic Vibes</div><div class="t2">Animation</div>
-        </div>
-        <div > <img src="asset6.png">
-            <div class="t1">Digital Horizons</div><div class="t2">UI/UX</div></div>
-        
-    </div>
+.synthwave{
+    width:153px;
+    height: 48px;
+    gap:12px;
+}
+.logo{
+    color:white;
+    font-family: 'Staatliches', sans-serif;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 42px;
+    line-height: 42px;
+    
+}
 
 
-        <div class = "r3">
-            <div >
-            <img src = "asset7.png"><div class="t1">Pixel Perfection</div><div class="t2">Game Design</div>
-        </div>
-        <div>
-            <img src = "asset8.png">
-            <div class="t1">Virtual Realities</div><div class="t2">VR/AR</div>
-        </div>
-        <div>
-            <img src="asset9.png">
-            <div class="t1">Electric Dreams</div><div class="t2">Motion Graphics<div>
-            </div>
-        </div>
-    </div>
+.home{
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 28px;
+}
 
+.project{
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 28px;
+}
 
-    </div>
-    <div class="main-state">
-       <div class="main-details">SynthWave is a creative studio specializing in retro-futuristic designs. Our work transports you to a digital, neon-lit world.</div>
-    </div>
-    <div class="touch-feel">
-        <div class="touch-feel_">
-            <div class="touch">Get in Touch</div>
-            <div class="feel">Feel free to reach out for collaborations or just a friendly chat.</div>
-        </div>
-    </div>
-    <hr>
-    <div class="contact-form">
-        <div class="form_"></div>
-    </div>
-    </div>
+.about{
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 28px;
+}
+hr{
+    width: 1504px;
+    
+}
+.contact{
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 28px;
+}
+.top-links {
+
+    width: 460px;
+    height: 32px;
+    gap: 32px;
+    color:white;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Red Hat Display', sans-serif;
+    text-decoration: none;
     
 
-</body>
-</html>
+}
+.landing-page{
+    width:1440px;
+    height: 3975px;
+    min-height: 900px;
+    padding-left: 48px;
+    padding-right: 48px;
+
+
+}
+.nav-bar{
+    width: 1344px;
+    height: 80px;
+    padding-top:16px;
+    padding-bottom:16px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.container{
+    width: 1344px;
+    height: 3727px;
+    padding-top: 48px;
+    padding-bottom: 48px;
+}
+.main-heading{
+   
+    text-align: center;
+    font-weight: 500;
+    font-size: 120px;
+    line-height: 120px;
+    color:white;
+    font-family:'Red Hat Display', sans-serif;
+}
+.heading{
+    width:1334px;
+    height:120px;
+    
+
+}
+
+.land-photo{
+    width: 1344px;
+    height: 672px;
+    border: 1.5px;
+    border-radius: 28px;
+
+}
+.r1{
+    width: 1390px;
+    height: 400px;
+    padding-top: 48px;
+    padding-bottom: 48px;
+    gap:48px;
+    display: flex;
+}
+.r1 img{
+    width:400px;
+    height:300px;
+    gap:8px;
+    display: flex;
+    justify-content: center;
+
+}
+.r2{width: 1390px;
+    height: 400px;
+    padding-top: 48px;
+    padding-bottom: 48px;
+    gap:48px;
+    display: flex;
+   }
+.r2 img{
+    width:400px;
+    height:300px;
+    gap:8px;
+}
+
+.r3{
+    width: 1390px;
+    height: 400px;
+    padding-top: 48px;
+    padding-bottom: 48px;
+    gap:48px;
+    display: flex;
+}
+.r3 img{
+    width:400px;
+    height:300px;
+    gap:8px;
+}
+
+.t1{
+    font-family: 'Inria Sans', sans-serif;
+    color: white;
+}
+.t2{
+    font-family: 'Inria Sans', sans-serif;
+    color:grey;
+}
+.main-state{
+    width: 1390px;
+    height: 400px;
+    padding-top: 90px;
+    padding-bottom: 90px;
+    
+    border-bottom: 1.5px;
+}
+.main-details{
+    color:white;
+    font-family:'Red Hat Display', sans-serif;
+    text-align: center;
+    width: 900px;
+    height:190px;
+    font-size: 42px;
+    line-height: 52px;
+
+
+}
+.touch-feel{
+    width: 1390px;
+    height: 400px;
+    border-bottom: 2px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    gap: 100px;
+
+
+}
+.touch-feel_{
+    width:1390px;
+    height: 170px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    gap:70px;
+    display: flex;
+    justify-content:space-between;
+    align-items:flex-end;
+}
+.touch{
+    font-family:'Red Hat Display', sans-serif; 
+    color:white;
+    font-size: 50px;
+    font-weight: 500;
+}
+.feel{
+    font-family:'Red Hat Display', sans-serif; 
+    color:white;
+    font-size: 26px;
+    font-weight: 500;
+}
