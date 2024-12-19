@@ -330,4 +330,70 @@ body{
     color:white;
 
 }
+.top-links a {
+    transition: color 0.3s ease-in;
+}
+
+.top-links a:hover {
+    color: #C11D1D; 
+}
+
+
+.r1 img, .r2 img, .r3 img {
+    transition: transform 0.4s ease-in;
+}
+
+.r1 img:hover, .r2 img:hover, .r3 img:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.page-hero, .nine-view, .main-state, .touch-feel, .contact-form, .footer {
+    animation: fadeIn 1.5s ease-in-out;
+}
+
+
+.su {
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.su:hover {
+    background-color: #8B0000; 
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+.logo {
+    transition: transform 0.3s ease;
+}
+
+.logo:hover {
+    transform: rotate(-5deg) scale(1.1);
+}
+.fo {
+    transition: box-shadow 0.4s ease-out;
+}
+
+.fo:hover {
+    box-shadow: 0 0 15px 5px #C11D1D;
+    cursor: pointer;
+}
 
