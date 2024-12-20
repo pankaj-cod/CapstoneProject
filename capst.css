@@ -482,7 +482,7 @@ body{
         text-align: center;
     }
 }
-@media screen and (max-width: 1440px) {
+@media  (max-width: 1440px) {
     .nav-bar {
         width: 72rem;
     }
@@ -507,11 +507,7 @@ body{
         line-height: 2.5rem;
     }
 
-    .touch-feel {
-        gap: 4rem;
-    }
-
-    .form_ {
+      .form_ {
         margin-left: 15rem;
     }
 
